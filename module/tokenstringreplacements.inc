@@ -874,3 +874,56 @@
 	str_replace(buffer, &len, &changes, "auk ", 4, " auk ", 5, 1);
 	str_replace(buffer, &len, &changes, "tie ", 4, " t ", 3, 0);
 	str_replace(buffer, &len, &changes, " i ", 3, " 1 ", 3, 0);
+
+    str_replace(buffer, &len, &changes, " nabieriezhnaia ", 16, " nab ", 5, 0);
+    str_replace(buffer, &len, &changes, " pierieulok ", 12, " pier ", 6, 0);
+    str_replace(buffer, &len, &changes, " tupik ", 7, " tup ", 5, 0);
+    str_replace(buffer, &len, &changes, " shossie ", 9, " sh ", 4, 0);
+    str_replace(buffer, &len, &changes, " dom ", 5, " d ", 3, 0);
+    str_replace(buffer, &len, &changes, " vladieniie ", 12, " vl ", 4, 0);
+    str_replace(buffer, &len, &changes, " stroieniie ", 12, " s ", 3, 0);
+
+    str_replace(buffer, &len, &changes, " bulv ", 6, " bl ", 4, 0);
+    str_replace(buffer, &len, &changes, " b r ", 5, " bl ", 4, 0);
+
+    str_replace(buffer, &len, &changes, " proiezd ", 9, " pr ", 4, 0);
+    str_replace(buffer, &len, &changes, " pr d ", 6, " pr ", 4, 0);
+
+    str_replace(buffer, &len, &changes, " prospiekt ", 11, " pr t ", 6, 0);
+    str_replace(buffer, &len, &changes, " pr kt ", 7, " pr t ", 6, 0);
+
+    str_replace(buffer, &len, &changes, " bolshoi ", 9, " b ", 3, 0);
+    str_replace(buffer, &len, &changes, " bolshaia ", 10, " b ", 3, 0);
+    str_replace(buffer, &len, &changes, " bolshoie ", 10, " b ", 3, 0);
+    str_replace(buffer, &len, &changes, " bolshiie ", 10, " b ", 3, 0);
+    str_replace(buffer, &len, &changes, " bol ", 5, " b ", 3, 0);
+
+    str_replace(buffer, &len, &changes, " malyi ", 7, " m ", 3, 0);
+    str_replace(buffer, &len, &changes, " malaia ", 8, " m ", 3, 0);
+    str_replace(buffer, &len, &changes, " maloie ", 8, " m ", 3, 0);
+    str_replace(buffer, &len, &changes, " malyie ", 8, " m ", 3, 0);
+    str_replace(buffer, &len, &changes, " mal ", 5, " m ", 3, 0);
+
+    str_replace(buffer, &len, &changes, " staryi ", 8, " st ", 4, 0);
+    str_replace(buffer, &len, &changes, " staraia ", 9, " st ", 4, 0);
+    str_replace(buffer, &len, &changes, " staroie ", 9, " st ", 4, 0);
+    str_replace(buffer, &len, &changes, " staryie ", 9, " st ", 4, 0);
+
+    str_replace(buffer, &len, &changes, " novyi ", 7, " nov ", 4, 0);
+    str_replace(buffer, &len, &changes, " novaia ", 8, " nov ", 4, 0);
+    str_replace(buffer, &len, &changes, " novoie ", 8, " nov ", 4, 0);
+    str_replace(buffer, &len, &changes, " novyie ", 8, " nov ", 4, 0);
+
+    str_replace(buffer, &len, &changes, " vierkhnii ", 11, " vierkh ", 8, 0);
+    str_replace(buffer, &len, &changes, " vierkhniaia ", 13, " vierkh ", 8, 0);
+    str_replace(buffer, &len, &changes, " vierkhnieie ", 13, " vierkh ", 8, 0);
+    str_replace(buffer, &len, &changes, " vierkhniie ", 12, " vierkh ", 8, 0);
+
+    str_replace(buffer, &len, &changes, " nizhnii ", 9, " nizh ", 6, 0);
+    str_replace(buffer, &len, &changes, " nizhniaia ", 11, " nizh ", 6, 0);
+    str_replace(buffer, &len, &changes, " nizhnieie ", 11, " nizh ", 6, 0);
+    str_replace(buffer, &len, &changes, " nizhniie ", 10, " nizh ", 6, 0);
+    str_replace(buffer, &len, &changes, " nizhn ", 7, " nizh ", 6, 0);
+
+    str_replace(buffer, &len, &changes, " korpus ", 8, " k ", 3, 0);
+    str_replace(buffer, &len, &changes, " korp ", 6, " k ", 3, 0);
