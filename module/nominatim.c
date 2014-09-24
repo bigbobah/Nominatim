@@ -253,6 +253,7 @@ gettokenstring( PG_FUNCTION_ARGS )
 	str_replace(buffer, &len, &changes, " en ", 4, " ", 1, 0);
 	str_replace(buffer, &len, &changes, " et ", 4, " ", 1, 0);
 	str_replace(buffer, &len, &changes, " y ", 3, " ", 1, 0);
+	str_replace(buffer, &len, &changes, " i ", 3, " ", 1, 0);
 
 	// 'the' (and similar)
 	str_replace(buffer, &len, &changes, " the ", 5, " ", 1, 0);
@@ -276,6 +277,7 @@ gettokenstring( PG_FUNCTION_ARGS )
 	// russian
 	str_replace(buffer, &len, &changes, "ie", 2, "i", 1, 0);
 	str_replace(buffer, &len, &changes, "yi", 2, "i", 1, 0);
+	str_replace(buffer, &len, &changes, "io", 2, "i", 1, 0);
 
 	// allocate & create the result
 	len--;// Drop the terminating zero
